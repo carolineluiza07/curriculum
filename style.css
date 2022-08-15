@@ -1,0 +1,62 @@
+
+        #header {
+            background-color:rgb(240, 217, 187);
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-family: 'Hubballi', cursiva;
+            text-align:center;
+        }
+
+        #nameAndTitle {
+            background-color:aliceblue;
+            width: 400px;
+            margin: 0 auto;
+                    }
+
+        #nameAndTitle h1, h2 {
+            margin: 0;
+                   }
+
+        h1, h2, h3 {
+            text-transform:uppercase;
+        }  
+        #contact {
+            list-style-type: none;
+            border: none;
+        }
+        #contact i {
+            width: 30px;
+            color: rgb(240, 217, 187);
+            
+        }
+        #container {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-column-gap: 25px;
+           
+           
+        }
+         #content, #sidebar {
+            display:flex;
+            flex-direction: column;
+            row-gap: 20px;
+            text-align:left(center);
+        
+        }
+        .card h3 {
+            font-family: 'Hubballi', cursiva;
+        }
+        .card {
+            font-family: 'Montserrat';
+            border:2px solid #eaeaeaea;
+            border-radius: 25px;
+            padding: 20px;
+          
+        }
+        #aboutMe {
+            text-align:left(center);
+            height: 200px;
+            width:200px
+        }
+
+ 
